@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Clock-display {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+
+.Clock-display--on {
+  border: 4px solid #5ddafb;
+}
+
+.Clock-display--off {
+  border: 4px solid white;
+}
+
+.Button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 80px;
+  background-color: #5ddafb;
+  border: none;
+  font-size: 34px;
+  cursor: pointer;
+  color: white;
+}
+
+.Button:focus {
+  outline: none;
+}
