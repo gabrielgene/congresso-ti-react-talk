@@ -8,3 +8,5 @@ O objetivo desse repositório é mostrar os conceitos básicos do react e poder 
 - Execute `yarn start`
 
 Caso queira tirar alguma dúvida basta mandar um DM para https://twitter.com/gabrielgene_ ou criar uma issue nesse projeto.
+
+![](https://user-images.githubusercontent.com/19671668/45853414-82248c00-bd1b-11e8-87fb-a44328548eda.png)
